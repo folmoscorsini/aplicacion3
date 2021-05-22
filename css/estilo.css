@@ -1,0 +1,196 @@
+body{
+	background-color: #6495ED;
+	cursor:default;
+	font-size: 3em;
+	width: 100%; /*Utilizado en pantalla de 1600px x 900px*/
+}
+
+.contenedor{
+	background-color: #6495ED;
+	cursor:default;
+	width: 62.5%; /* 1000/1600 = 0.625 62.5%*/
+	clear:left;
+}
+
+.container{
+	background-color: #6495ED;
+}
+
+h1{
+	text-transform: uppercase;	
+	clear:left;
+}
+
+a{
+	font-size:1em;
+}
+
+a[title="home"]{
+	background-color:yellow;
+}
+
+a:link{
+	color:black;
+}
+
+a#p2:visited, a#p3:visited, a#p4:visited{
+	color:#DEB887;
+}
+
+
+a:hover{
+	color:#006400;
+}
+
+nav{
+	background-color: #ff6600;
+	clear:left;
+}
+
+section{
+	padding: 3%;
+}
+
+.historia{
+	background-color: #FFFFFF;
+	padding: 1em 3%; /* 30/1000 = 0.03 3%*/
+}
+
+p.historia:first-letter,.historia p:first-letter{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size: 0.875em;
+}
+
+ul > li{
+	font-style: italic;
+	list-style-type:square;
+}
+
+section video{
+	width: 100%;
+	max-width:100%;
+	padding:1em 2%;
+	border: 4px solid green;
+}
+
+footer .pie{
+	background-color: orange;
+	color: white;
+	font-weight:bold;
+	font-size:0.75em;
+	padding:1em 2%; /* 20/1000 = 0.02 2%*/
+}
+
+@media (max-width:1600px){
+	h3 {
+		color: blue;
+	}
+	
+	h1 {
+		text-transform:uppercase;
+		text-decoration:underline;
+		color:white;
+	}
+
+	li{
+		display: inline;			
+	}
+
+	li{
+		padding: 0.625%; /* 10/1600 = 0,00625 = 0,625% */
+	}
+
+	.pie{
+		text-align:right;
+	}
+}
+
+@media (max-width:768px){
+	h3 {
+		color: orange;
+	}
+	
+	h1 {
+		text-transform:capitalize;
+		text-decoration:none;
+		color:black;
+	}
+	
+	li{
+		display: block;			
+	}
+
+	li{
+		padding: 0;
+	}
+	
+	.pie{
+		text-align:left;
+	}
+	
+	
+}
+
+@media (max-width:640px){
+	h3 {
+		color: orange;
+	}
+	
+	h1 {
+		text-transform:lowercase;
+		text-decoration:none;
+		color:black;
+	}
+	
+	li{
+		display: block;			
+	}
+
+	li{
+		padding: 0;
+	}
+	
+	.pie{
+		text-align:center;
+	}
+}
+
+figcaption{
+	text-align:left;
+	color: white;
+	font-weight:bold;
+}
+
+.contacto,section table.personajes,.caratula{
+	border: 2px solid black;
+}
+
+.caratula{
+	float:left;
+	margin-right: 2.58064516129032%; /* 12/465 */
+	max-width:100%;
+}
+
+section table tr td p{
+	color: white;
+	text-shadow: 0.125em 0.125em 0.25em #000000; /* 2px/16px=0.125em 4px/16px=0.25em*/
+	font-size:0.875em; /* 14/16 = 0.875em*/
+}
+
+td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
+
+figure img{
+	width: 100%;
+	max-width:100%;
+}
+
+table > caption{
+	font-size:1.56em; /*25/16 = 1.56em*/
+	color: white;
+}
